@@ -28,14 +28,20 @@ def transform():
     print('====================================')
     
     # todo: change datatype 
+
+   
+    
+
     df["Rating"]=df["Rating"].astype(int)
-    df["Rating"]=df["Rating"].astype(int)
+    
+
     # drop unwanted columns
     df = df.drop(['hawa'], axis=1)
     
     
     # todo: Null handle 
     df["desc"] = "No description"
+
     
     
     return df
