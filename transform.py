@@ -1,3 +1,4 @@
+import pandas as pd 
 
 def transform():
     
@@ -22,7 +23,7 @@ def transform():
     ]
     
     # conver to df
-    
+    df=pd.createDataFrame(data)
     # todo: change datatype 
     
     
