@@ -23,21 +23,24 @@ def transform():
     ]
     
     # conver to df
-    df=pd.createDataFrame(data)
+    df=pd.DataFrame(data)
     print(df.head())
+    print('====================================')
+    
     # todo: change datatype 
     
     
     # todo: drop unwanted columns
+    df = df.drop(['hawa'], axis=1)
     
     
     # todo: return new data
     
     
     
-    
-    transformed_data = []
-    
-    
-    
-    return transformed_data
+    return df
+
+
+if __name__ == '__main__':
+    df = transform()
+    print(df.head())
