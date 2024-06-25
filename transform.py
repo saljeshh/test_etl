@@ -29,7 +29,7 @@ def transform():
     
     # todo: change datatype 
     df["Rating"]=df["Rating"].astype(int)
-    
+    df["Rating"]=df["Rating"].astype(int)
     # drop unwanted columns
     df = df.drop(['hawa'], axis=1)
     
