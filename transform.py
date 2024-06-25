@@ -24,6 +24,7 @@ def transform():
     
     # conver to df
     df=pd.createDataFrame(data)
+    print(df.head())
     # todo: change datatype 
     
     
