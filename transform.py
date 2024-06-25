@@ -30,12 +30,12 @@ def transform():
     # todo: change datatype 
     
     
-    # todo: drop unwanted columns
+    # drop unwanted columns
     df = df.drop(['hawa'], axis=1)
     
     
-    # todo: return new data
-    
+    # todo: Null handle 
+    df["desc"] = "No description"
     
     
     return df
